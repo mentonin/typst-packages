@@ -1,0 +1,57 @@
+# Package description for easy-unb
+# Copyright (C) 2025 Luiz Georg
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+[package]
+name = "easy-unb"
+version = "0.1.0"
+entrypoint = "src/lib.typ"
+authors = ["Luiz Georg"]
+description = "Trabalho de Conclusão de Curso de graduação na Universidade de Brasília"
+categories = ["thesis"]
+exclude = ["*.pdf"]
+license = " AGPL-3.0-or-later AND MIT-0"
+keywords = [
+    "UnB", "Universidade de Brasília",
+    # Campi
+    "Faculdade UnB Planaltina", "FUP",
+    "Faculdade de Ciências e Tecnologias em Saúde", "FCTS",
+    "Faculdade UnB Ceilândia", "FCE",
+    "Faculdade de Ciências e Tecnologias em Engenharia", "FCTE",
+    "Faculdade UnB Gama", "FGA",
+    # Institutos
+    "Instituto de Artes", "IDA",
+    "Instituto de Ciência Política", "IPOL",
+    "Instituto de Ciências Biológicas", "IB",
+    "Instituto de Ciências Exatas", "IE",
+    "Instituto de Ciências Humanas", "ICH",
+    "Instituto de Ciências Sociais", "ICS",
+    "Instituto de Física", "IF",
+    "Instituto de Geociências", "IG",
+    "Instituto de Letras", "IL",
+    "Instituto de Psicologia", "IP",
+    "Instituto de Química", "IQ",
+    "Instituto de Relações Internacionais", "IREL",
+    # Faculdades
+    "Faculdade de Agronomia e Medicina Veterinária", "FAV",
+    "Faculdade de Arquitetura e Urbanismo", "FAU",
+    "Faculdade de Ciência da Informação", "FCI",
+    "Faculdade de Ciências da Saúde", "FS",
+    "Faculdade de Comunicação", "FAC",
+    "Faculdade de Direito", "FD",
+    "Faculdade de Economia, Administração, Contabilidade e Gestão de Políticas Públicas", "FACE",
+    "Faculdade de Educação", "FE",
+    "Faculdade de Educação Física", "FEF",
+    "Faculdade de Medicina", "FM",
+    "Faculdade de Tecnologia", "FT",
+    # Outros
+    "Trabalho de Conclusão de Curso", "TCC",
+    "Monografia",
+    "Tese",
+    "Brasília",
+]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
